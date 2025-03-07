@@ -1,6 +1,6 @@
 # Simple Telegram Bot
 
-This is a simple Telegram bot built with Node.js. It allows you to send messages to a specified phone number. Follow the instructions below to set up and run the bot on your system.
+This is a simple Whatsapp bot built with Node.js. It allows you to send messages to a specified phone number. Follow the instructions below to set up and run the bot on your system.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ This is a simple Telegram bot built with Node.js. It allows you to send messages
 
 3. Clone the GitHub repository into your local machine:
     ```
-    git clone https://github.com/coderxsa/nebula.git
+    git clone https://github.com/coderxsa/termux-nebula.git
     ```
 
 4. Change into the directory of the cloned repository:
@@ -35,23 +35,13 @@ This is a simple Telegram bot built with Node.js. It allows you to send messages
     ```
     npm install
     ```
-    
-6. Edit Bot.js:
-    ```
-    nano bot.js
-    ```
-    
-7. Run the Node.js application, passing a specific phone number you want to use and get the login code:
-    ```
-    node index.js
-    ```
 
 ### Step 2: Relink Bot (If Necessary)
 
 - If Termux disconnects, you can simply relink the bot by running the following commands:
     ```
-    cd nebula
-    node index.js
+    cd termux-nebula
+    node index.js 2727xxx
     ```
 
 - If you removed the linked device, you need to follow **Step 1** again and reinstall the bot. To clear data on Termux:
@@ -59,9 +49,9 @@ This is a simple Telegram bot built with Node.js. It allows you to send messages
 
 - Reinstall the bot:
     ```
-    git clone https://github.com/coderxsa/nebula.git
-    cd nebula
+    git clone https://github.com/coderxsa/termux-nebula.git
+    cd termux-nebula
     npm install
-    node index.js
+    node index.js 272xxx
     ```
 
