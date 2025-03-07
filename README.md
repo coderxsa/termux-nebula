@@ -28,7 +28,7 @@ This is a simple Whatsapp bot built with Node.js. It allows you to send messages
 
 4. Change into the directory of the cloned repository:
     ```
-    cd nebula
+    cd termux-nebula
     ```
 
 5. Install the necessary dependencies for the project defined in `package.json`:
